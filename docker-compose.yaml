@@ -1,0 +1,26 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: sortme-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: sortme
+      POSTGRES_PASSWORD: sortme
+      POSTGRES_DB: sortme
+    ports:
+      - "5432:5432"
+    volumes:
+      - sortme-postgres-data:/var/lib/postgresql/data
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: sortme-ollama
+    restart: unless-stopped
+    ports:
+      - "11434:11434"
+    volumes:
+      - sortme-ollama-data:/root/.ollama
+
+volumes:
+  sortme-postgres-data:
+  sortme-ollama-data:
