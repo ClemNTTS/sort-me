@@ -1,0 +1,2 @@
+-- Initial migration placeholder.
+-- Phase 2 will add the application tables.

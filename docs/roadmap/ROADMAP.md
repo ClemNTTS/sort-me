@@ -12,12 +12,12 @@ L’application doit pouvoir fonctionner avec un LLM local ou un provider cloud.
 
 - [x] Définir le nom du projet
 - [x] Écrire la phrase produit
-- [ ] Définir le périmètre du MVP
-- [ ] Choisir la stack technique
-- [ ] Créer le repository GitHub
+- [x] Définir le périmètre du MVP
+- [x] Choisir la stack technique
+- [x] Créer le repository GitHub
 - [x] Ajouter un `README.md`
-- [ ] Ajouter un `.env.example`
-- [ ] Ajouter une première version du `docker-compose.yml`
+- [x] Ajouter un `.env.example`
+- [x] Ajouter une première version du `docker-compose.yml`
 
 ### MVP visé
 
@@ -32,14 +32,14 @@ L’application doit pouvoir fonctionner avec un LLM local ou un provider cloud.
 
 ## Phase 1 — Backend de base
 
-- [ ] Initialiser le backend Rust
-- [ ] Mettre en place Axum
-- [ ] Mettre en place Tokio
+- [x] Initialiser le backend Rust
+- [x] Mettre en place Axum
+- [x] Mettre en place Tokio
 - [ ] Configurer PostgreSQL
 - [ ] Ajouter SQLx
 - [ ] Ajouter les migrations
-- [ ] Créer un endpoint `GET /health`
-- [ ] Mettre en place la configuration via variables d’environnement
+- [x] Créer un endpoint `GET /health`
+- [x] Mettre en place la configuration via variables d’environnement
 - [ ] Mettre en place les logs avec `tracing`
 
 ### Modules backend

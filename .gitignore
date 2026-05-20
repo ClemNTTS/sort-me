@@ -11,8 +11,7 @@ yarn-debug.log*
 pnpm-debug.log*
 
 # Rust
-/target/
-Cargo.lock
+target/
 
 # Node / Frontend
 node_modules/
