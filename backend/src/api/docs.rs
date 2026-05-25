@@ -1,6 +1,8 @@
 use axum::{response::Json, routing::get, Router};
 use serde_json::{json, Value};
 
+use crate::state::AppState;
+
 use super::health;
 
 pub async fn openapi() -> Json<Value> {
@@ -22,6 +24,6 @@ pub async fn openapi() -> Json<Value> {
     }))
 }
 
-pub fn router() -> Router {
+pub fn router() -> Router<AppState> {
     Router::new().route("/", get(openapi))
 }

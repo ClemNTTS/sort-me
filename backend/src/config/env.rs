@@ -1,5 +1,3 @@
-//Load all environment variables from a `.env` file, if it exists.
-
 use dotenvy::dotenv;
 
 pub fn load_env() {

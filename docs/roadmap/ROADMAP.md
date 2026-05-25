@@ -35,23 +35,23 @@ L’application doit pouvoir fonctionner avec un LLM local ou un provider cloud.
 - [x] Initialiser le backend Rust
 - [x] Mettre en place Axum
 - [x] Mettre en place Tokio
-- [ ] Configurer PostgreSQL
-- [ ] Ajouter SQLx
-- [ ] Ajouter les migrations
+- [x] Configurer PostgreSQL
+- [x] Ajouter SQLx
+- [x] Ajouter les migrations
 - [x] Créer un endpoint `GET /health`
 - [x] Mettre en place la configuration via variables d’environnement
-- [ ] Mettre en place les logs avec `tracing`
+- [x] Mettre en place les logs avec `tracing`
 
 ### Modules backend
 
-- [ ] `config`
-- [ ] `api`
-- [ ] `db`
-- [ ] `mail`
-- [ ] `classifier`
-- [ ] `llm`
-- [ ] `scheduler`
-- [ ] `security`
+- [x] `config`
+- [x] `api`
+- [x] `db`
+- [x] `mail`
+- [x] `classifier`
+- [x] `llm`
+- [x] `scheduler`
+- [x] `security`
 
 ---
 
